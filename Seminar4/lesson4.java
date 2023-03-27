@@ -9,7 +9,7 @@ public class lesson4 {
         List<Integer> ages = new ArrayList<>();
         List<Character> genders = new ArrayList<>();
 
-        System.out.println("Введите данные в формате: Фамилия Имя Отчество Возраст Пол (M или F). Нажмите q для завершения ввода.");
+        System.out.println("Введите данные в формате: Фамилия Имя Отчество Возраст Пол (M или F). Нажмите q для завершения");
 
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
