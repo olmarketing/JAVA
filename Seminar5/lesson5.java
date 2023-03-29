@@ -15,7 +15,7 @@ public class lesson5 {
             int numOfPhones = new Random().nextInt(3) + 1; // от 1 до 3 телефонов на человека
             List<String> phones = new ArrayList<String>();
             for (int i = 0; i < numOfPhones; i++) {
-                phones.add("+" + (new Random().nextInt(899) + 100) + "-" + (new Random().nextInt(899) + 100) + "-" + (new Random().nextInt(8999) + 1000));
+                phones.add("+7" + (new Random().nextInt(899)) + "-" + (new Random().nextInt(899)) + "-" + (new Random().nextInt(8999)));
             }
             phoneBook.put(employee, phones);
         }
